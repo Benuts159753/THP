@@ -35,10 +35,16 @@ nav{
 #form{
   display: flex;
   justify-content: center;
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+
 }
 #glass{
-  width: 25%;
-  height: 25%;
+  width: 5%;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }
 .flex_center{
   display: flex;
@@ -47,6 +53,8 @@ nav{
   margin-top: 2rem;
   margin-bottom: 2rem;
   width: 30rem;
+  border: none;
+  
 }
 #share{
   align-items: flex-end;
@@ -60,7 +68,7 @@ nav{
   margin-right: 0.5rem;
   background-color: #f8f8f8;
   border: 1px solid #c6c6c6;
-
+  border-radius: 0.3rem;
 }
 a{
   color: #222;
@@ -75,19 +83,37 @@ footer{
   bottom: 0;
   width: 100%;
 }
-.footer{ /* Peut surement trouver un meilleur nom à cette classe */
+.footerHaut{ /* Peut surement trouver un meilleur nom à cette classe */
   background: #f2f2f2;
   border-top: 1px solid #e4e4e4;
   line-height: 40px;
   padding-left: 27px;
+  
+}
+.footerBas{
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  padding-left: 27px;
+  display: flex;
+  justify-content: space-between;
 }
 .ul_footer{
   display: inline-flex;
   list-style-type: none;
+  margin-right: 40px;
+  padding: 0px;
 }
+
 ul.ul_footer{
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.liLeft{
+margin-right: 1rem;
+}
+.liRight{
+margin-left: 1rem;
 }
 
 
